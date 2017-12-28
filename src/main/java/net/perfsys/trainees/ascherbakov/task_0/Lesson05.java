@@ -1,5 +1,7 @@
 package net.perfsys.trainees.ascherbakov.task_0;
 
+public class Lesson05 {
+
 public static void main(String args []){
         int a = 0;
         int b = 15;
