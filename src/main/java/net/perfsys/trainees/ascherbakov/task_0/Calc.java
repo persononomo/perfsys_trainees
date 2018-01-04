@@ -2,7 +2,7 @@ package net.perfsys.trainees.ascherbakov.task_0;
 
 import java.util.Scanner;
 
-public class calc {
+public class Calc {
 
 
     public static void main(String[] args) {
