@@ -6,58 +6,60 @@ public class Calc {
 
 
     public static void main(String[] args) {
+        System.out.println("Введи операцию");
 
         Scanner scn = new Scanner(System.in);
         int a, b, result;
-        int operation = 'o';
-        String sum = "+";
-        String dif = "-";
-        String div = "/";
-        String mul = "*";
+        String operation = scn.next();
+//        int operation = 'o';
+//        String sum = "+";
+//        String dif = "-";
+//        String div = "/";
+//        String mul = "*";
 
 
         switch (operation) {
-            case '+':
+            case "+":
                 System.out.println("Введи первое число");
                 a = scn.nextInt();
                 System.out.println("Введи второе число");
                 b = scn.nextInt();
-                if (sum.equals("+")) {
+//                if (sum.equals("+")) {
                     result = a + b;
                     System.out.println("Сумма равна " + result);
-                }
+//                }
                 break;
-            case '-':
+            case "-":
                 System.out.println("Введи первое число");
                 a = scn.nextInt();
                 System.out.println("Введи второе число");
                 b = scn.nextInt();
-                if (dif.equals("-")) {
+//                if (dif.equals("-")) {
                     result = a - b;
                     System.out.println("Разница " + result);
-                }
+//                }
                 break;
-            case '/':
+            case "/":
                 System.out.println("Введи первое число");
                 a = scn.nextInt();
                 System.out.println("Введи второе число");
                 b = scn.nextInt();
-                if (div.equals("/")) {
+//                if (div.equals("/")) {
 
                     result = a / b;
                     System.out.println("Результат деления " + result);
-                }
+//                }
                 break;
-            case '*':
+            case "*":
                 System.out.println("Введи первое число");
                 a = scn.nextInt();
                 System.out.println("Введи второе число");
                 b = scn.nextInt();
-                if (mul.equals("*")) {
+//                if (mul.equals("*")) {
 
                     result = a * b;
                     System.out.println("Результат умножения " + result);
-                }
+//                }
                 break;
         }
     }
