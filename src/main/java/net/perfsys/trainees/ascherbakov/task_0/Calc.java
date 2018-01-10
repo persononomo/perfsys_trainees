@@ -14,9 +14,6 @@ public class Calc {
         System.out.println("Введи второе число");
         b = scn.nextInt();
 
-        char i = 'a';
-        int i1 = Integer.parseInt(String.valueOf(i));
-
         switch (operation) {
             case "+":
                 System.out.println("Сумма равна " + (a + b));
