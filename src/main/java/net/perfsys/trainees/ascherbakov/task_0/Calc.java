@@ -14,6 +14,8 @@ public class Calc {
         System.out.println("Введи второе число");
         b = scn.nextInt();
 
+        char i = 'a';
+        int i1 = Integer.parseInt(String.valueOf(i));
 
         switch (operation) {
             case "+":
@@ -28,6 +30,8 @@ public class Calc {
             case "*":
                 System.out.println("Результат умножения " + (a * b));
                 break;
+            default:
+                System.out.println("Error");
         }
     }
 
