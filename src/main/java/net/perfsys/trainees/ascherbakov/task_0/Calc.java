@@ -11,6 +11,8 @@ public class Calc {
         int a, b, result;
         char operation = 'o';
 
+        char i = 'a';
+        int i1 = Integer.parseInt(String.valueOf(i));
 
         switch (operation) {
             case '+':
@@ -49,6 +51,8 @@ public class Calc {
                 result = a * b;
                 System.out.println("Результат умножения " + result);
                 break;
+            default:
+                System.out.println("Error");
         }
     }
 
