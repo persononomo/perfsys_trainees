@@ -1,6 +1,6 @@
 package net.perfsys.trainees.ascherbakov.task_0;
 import java.util.Random;
-
+import java.util.Arrays;
 
 public class Snake {
     public static void main(String[] args) {
