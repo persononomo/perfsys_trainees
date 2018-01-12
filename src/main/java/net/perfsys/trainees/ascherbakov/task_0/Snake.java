@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Snake {
     public static void main(String[] args) {
 //1) Создать массив из 100 элементов;
-        int[] Array = new int[99];
+        int[] Array = new int[100];
 //2) Заполнить массив случайными натуральными числами от 0 до 99;
         Random r = new Random();
         int lengthArray = 99;
