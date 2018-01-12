@@ -14,14 +14,15 @@ public class Snake {
 //3) Отсортировать массив;
         int n = array.length;
         int temp = 0;
-        for (int i = 0; i < n; i++){
-            for(int j=1; j <(n-i); j++){
-                if(array[j-1]>array[j]){
-                    temp = array[j-1];
-                    array[j-1]=array[j];
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < (n - i); j++) {
+                if (array[j - 1] > array[j]) {
+                    temp = array[j - 1];
+                    array[j - 1] = array[j];
                     array[j] = temp;
                 }
             }
+        }
         //Arrays.sort(array);
         //for (int i = 0; i < array.length; i++) {
 //4) Создать матрицу 10 на 10;
@@ -39,4 +40,3 @@ public class Snake {
             }
         }
     }
-}
