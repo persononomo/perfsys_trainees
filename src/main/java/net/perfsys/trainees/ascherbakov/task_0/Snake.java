@@ -1,6 +1,7 @@
 package net.perfsys.trainees.ascherbakov.task_0;
 
-import java.util.Arrays;
+//import java.util.Arrays;
+
 import java.util.Random;
 
 public class Snake {
@@ -24,6 +25,10 @@ public class Snake {
                 }
             }
         }
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.println(array[i] + "\t");
+//        }
+
         //Arrays.sort(array);
         //for (int i = 0; i < array.length; i++) {
 //4) Создать матрицу 10 на 10;
@@ -41,3 +46,4 @@ public class Snake {
         }
     }
 }
+
