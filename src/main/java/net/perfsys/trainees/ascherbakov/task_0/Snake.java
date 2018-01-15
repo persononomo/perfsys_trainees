@@ -1,3 +1,5 @@
+package net.perfsys.trainees.ascherbakov.task_0;
+
 import java.util.Arrays;
 import java.util.Random;
 
