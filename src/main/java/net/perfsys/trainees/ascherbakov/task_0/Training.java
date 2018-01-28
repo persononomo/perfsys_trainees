@@ -15,6 +15,12 @@ public class Training {
         arrayFiveTen();
         arrayFiveTen();
         arrayFiveTen();
+        
+      \\    int x = 0;
+      \\  while (x<5){
+      \\      x++;
+      \\      arrayFiveTen();
+      \\  }
 
     }
 
