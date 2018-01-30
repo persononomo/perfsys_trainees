@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
 
 public class Lesson06 {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrombook;
 
 class Quicksort {
     static void qsort(char items[]){

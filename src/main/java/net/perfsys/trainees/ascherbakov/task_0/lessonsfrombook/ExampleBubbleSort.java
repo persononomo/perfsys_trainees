@@ -1,16 +1,20 @@
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrombook;
+
 import java.util.Random;
 
-public class Bubblesort {
+public class ExampleBubbleSort {
 
     public static void main(String[] args) {
         Random r = new Random();
-        int[] num = {23, 32, 43, 54, 65, 98, 5654654, 34224324, 5345345} ;
+        int[] array = new int[100];
 
-        bubbleSort(num);
 
-        for (int h = 0; h < num.length; h++)
-            System.out.print(num[h]+ " ");
+        int maxValueArray = 99;
+
+        for (int h = 0; h < array.length; h++)
+            array[h] = r.nextInt(maxValueArray);
+
+        bubbleSort(array);
 
 
     }

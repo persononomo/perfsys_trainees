@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrombook;
 public class Help {
     public static void main(String args[])
             throws java.io.IOException {

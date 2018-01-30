@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
 import java.util.Arrays;
 
 // 1) Создать статический метод,который будет иметь два целочисленных параметра a и b,и в качестве своего значения

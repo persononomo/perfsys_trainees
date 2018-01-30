@@ -1,3 +1,5 @@
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrombook;
+
 public class Output {
     public static void main(String[] args) {
         Output o = new Output();
