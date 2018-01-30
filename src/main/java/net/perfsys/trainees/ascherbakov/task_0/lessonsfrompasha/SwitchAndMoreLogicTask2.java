@@ -8,6 +8,9 @@ public class SwitchAndMoreLogicTask2 {
         int a = r/100;
         int b = (r%100)/10;
         int c = r%10;
+        if(a>=b&&a>=c) {
+            System.out.println("Наибольшое число  " + a );
+        }
         System.out.println();
     }
     private static int random() {
