@@ -18,12 +18,12 @@ import java.util.Arrays;
 
 public class Training {
     public static void main(String[] args) {
-//        int[] num = {21, 76, 16, 98, 123, 564}; //пример сортировки методом пузырька
-//        int n = num.length;
-//        bubbleSort(num);
-//        for (int i = 0; i < n; i++)
-//            System.out.print(num[i] + "\t");
-        wordsArray(); //пример выполнения 4-ого задания
+        int[] num = {21, 76, 16, 98, 123, 564}; //пример сортировки методом пузырька
+        int n = num.length;
+        bubbleSort(num);
+        for (int i = 0; i < n; i++)
+            System.out.print(num[i] + "\t");
+//        wordsArray(); //пример выполнения 4-ого задания
 
     }
 
