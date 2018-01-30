@@ -5,14 +5,15 @@ package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
 
 public class SwitchAndMoreLogicTask1 {
     public static void main(String[] args) {
-        if(random() > 25 && random() <=100){
-            System.out.println("Писло "  + random() + " содержится в интервале от 25 до 100");
-        }
-        else {
-            System.out.println("Писло "  + random() + " не содержится в интервале от 25 до 100");
+        int r = random();
+        if (r >= 25 && r <= 100) {
+            System.out.println("Писло " + r + " содержится в интервале от 25 до 100");
+        } else {
+            System.out.println("Писло " + r + " не содержится в интервале от 25 до 100");
         }
     }
-    public static int random(){
+
+    public static int random() {
         int a = 5;
         int b = 155;
         return (int) (Math.random() * (b - a) + a);
