@@ -1,7 +1,7 @@
 package net.perfsys.trainees.ascherbakov.task_0;
-mport java.util.Random;
+import java.util.Random;
 
-public class ExampleBubbleSort {
+public class Bubblesort {
 
     public static void main(String[] args) {
         Random r = new Random();
