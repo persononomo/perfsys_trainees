@@ -71,7 +71,12 @@ public class Training {
     }
 
     private static void wordsArray() {
+<<<<<<< HEAD
         String[] words = {"Пушкин", "Лермонтов", "Некрасов", "Толстой Л.Н.", "Толстой А.Н.", "Есенин", "Паустовский"};
+=======
+        String[] words = {"Пушкин", "Лермонтов", "Некрасов",
+        "Толстой Л.Н.", "Толстой А.Н.", "Есенин", "Паустовский"};
+>>>>>>> q
         System.out.println("Unsorted array:" + Arrays.toString(words));
         Arrays.sort(words);
         System.out.println("Sorted array:" + Arrays.toString(words));
