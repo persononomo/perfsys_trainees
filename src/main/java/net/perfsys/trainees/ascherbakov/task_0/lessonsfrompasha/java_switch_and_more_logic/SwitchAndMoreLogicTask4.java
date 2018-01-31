@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha.java_switch_and_more_logic;
 
 public class SwitchAndMoreLogicTask4 {
     public static void main(String[] args) {

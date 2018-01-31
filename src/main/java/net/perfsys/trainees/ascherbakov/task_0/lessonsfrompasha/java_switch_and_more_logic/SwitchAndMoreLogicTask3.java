@@ -2,7 +2,7 @@
 //В три переменные a, b и c явно записаны программистом три целых попарно неравных между собой числа.
 //Создать программу, которая переставит числа в переменных таким образом,
 //чтобы при выводе на экран последовательность a, b и c оказалась строго возрастающей.
-package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha.java_switch_and_more_logic;
 
 public class SwitchAndMoreLogicTask3 {
     public static void main(String[] args) {
