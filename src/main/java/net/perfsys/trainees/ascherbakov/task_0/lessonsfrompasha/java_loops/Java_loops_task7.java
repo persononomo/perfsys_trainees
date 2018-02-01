@@ -1,6 +1,7 @@
 //Создайте программу, вычисляющую факториал натурального числа n, которое пользователь введёт с клавиатуры.
 
 package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha.java_loops;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Java_loops_task7 {
@@ -8,6 +9,7 @@ public class Java_loops_task7 {
         Scanner scn = new Scanner(System.in);
         System.out.println("Введите число и которого нужен факториал");
         long n = scn.nextInt();
+
         System.out.println("Факториал равен:"+ " " + factorial(n));
 
     }
