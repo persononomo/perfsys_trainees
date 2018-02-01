@@ -1,4 +1,4 @@
-package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha;
+package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha.other;
 
 import java.util.stream.Stream;
 
