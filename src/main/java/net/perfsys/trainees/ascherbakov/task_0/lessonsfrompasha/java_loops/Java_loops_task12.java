@@ -3,6 +3,8 @@
 
 package net.perfsys.trainees.ascherbakov.task_0.lessonsfrompasha.java_loops;
 
+import java.util.Scanner;
+
 public class Java_loops_task12 {
   public static void main(String[] args) {
         String a;
