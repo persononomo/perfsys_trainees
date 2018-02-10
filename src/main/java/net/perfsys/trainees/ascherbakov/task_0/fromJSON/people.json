@@ -1,12 +1,3 @@
-{
-[
-  "id": id
-  "name": name,
-  "gender": gender,
-  "age": age,
-  "father": fatherId,
-  "mother": motherId,
-  "brothers":[ids],
-  "sisters": [ids]
-]
-}
+"Булыжник Виктор Сергеевич":{"id":1, "gender": мужик, "age": 86, "father": Сергей, "mother": Доздроперма, "brothers": нет, "sisters": нет }
+"Гавно Александр Валерьевич":{"id":2, "gender": мужик, "age": 92, "father": Валерий, "mother": Алевтина, "brothers": Вася, "sisters": Петя }
+"Гарри Потер Ленинович":{"id":3, "gender": хз, "age": 120, "father": Ленин, "mother": Неизвестно, "brothers": нет, "sisters": Гермиона }
