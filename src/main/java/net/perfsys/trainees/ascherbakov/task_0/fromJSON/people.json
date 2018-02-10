@@ -1,0 +1,12 @@
+{
+[
+  "id": id
+  "name": name,
+  "gender": gender,
+  "age": age,
+  "father": fatherId,
+  "mother": motherId,
+  "brothers":[ids],
+  "sisters": [ids]
+]
+}
