@@ -1,4 +1,5 @@
 //Написать программу, которая решает линейное уравнение: ax+b=0.
+
 package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 
 import java.util.Scanner;

@@ -1,4 +1,5 @@
 //Ввести две скорости: одну в километрах в час, другую в метрах в секунду. Определить, какая из скоростей больше.
+
 package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 
 public class Task6 {
