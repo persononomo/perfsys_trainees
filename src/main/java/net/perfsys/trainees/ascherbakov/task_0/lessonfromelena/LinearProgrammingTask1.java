@@ -5,8 +5,8 @@ package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 public class LinearProgrammingTask1 {
     public static void main(String[] args) {
         int x, y, n, k;
-        n = 4; // головы
-        k = 12; // ноги
+        n = 26; // головы
+        k = 78; // ноги
         x = y = 0;
         y = (4 * n - k) / 2;
         x = n - y;

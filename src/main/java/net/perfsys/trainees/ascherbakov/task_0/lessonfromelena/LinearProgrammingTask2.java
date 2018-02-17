@@ -6,7 +6,7 @@ package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 
 public class LinearProgrammingTask2 {
    public static void main(String[] args) {
-        int s = 1565;
+        int s = 2986;
         int a = 200;
         int b = 50;
         int c = 10;
@@ -24,7 +24,7 @@ public class LinearProgrammingTask2 {
         d = s - b200 * a - b50 * b - b10 * c;
 
 
-        System.out.println(b200 + " " + b50 + " " +b10 + " "+ d);
+        System.out.println(b200 + " купюр по 200 грн. " + b50 + "  купюр по 50 грн. " +b10 + " купюр по 10 грн. "+ d + " остаток в грн. ");
     }
 
 }
