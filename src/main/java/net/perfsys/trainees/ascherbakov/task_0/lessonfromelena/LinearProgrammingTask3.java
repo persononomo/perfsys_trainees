@@ -16,14 +16,14 @@ public class LinearProgrammingTask3 {
         int a1000 = 0;
         int d = 0;
 
-        d=m;
+        d = m;
 
-        a1000=d/c;
-        d = m - (a1000*c);
-        a300=d/b;
-        d = m - (a1000*c) - (a300*b);
-        a100 = d/a;
-        d = m - (a1000*c) - (a300*b) - (a100*a);
+        a1000 = d / c;
+        d = m - (a1000 * c);
+        a300 = d / b;
+        d = m - (a1000 * c) - (a300 * b);
+        a100 = d / a;
+        d = m - (a1000 * c) - (a300 * b) - (a100 * a);
 
         System.out.println(a1000 + " гирь по 1000г " + a300 + " гирь по 300г " + a100 + " гирь по 100г " + d + " г в остатке");
     }
