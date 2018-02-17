@@ -12,10 +12,10 @@ public class LinearProgrammingTask6 {
         int dh = 3;
         int dm = 30;
 
-        int tempA = hourA * 3600 + minutesA*60;
-        int tempdh = dh * 3600 + dm*60;
+        int tempA = hourA * 3600 + minutesA * 60;
+        int tempdh = dh * 3600 + dm * 60;
         int tempB = tempA + tempdh;
-        int hourB = (tempB / 3600)%25;
+        int hourB = (tempB / 3600) % 25;
         int temp = tempB % 3600;
         int minutesB = (tempB % 3600) / 60;
         int secB = temp % 60;
