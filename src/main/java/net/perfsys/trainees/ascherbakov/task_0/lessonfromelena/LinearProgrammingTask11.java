@@ -12,14 +12,15 @@ public class LinearProgrammingTask11 {
         System.out.println("Введите четырехзначное число:");
         String str = scn.nextLine();
         int[] numArr = Arrays.stream(str.split("")).mapToInt(Integer::parseInt).toArray();
-        int[] numArrReverse = {numArr[1],numArr[0],numArr[3],numArr[2]};
-        for (int i = 0; i <numArrReverse.length ; i++) {
-            System.out.print(numArrReverse[i]);
+        int[] numArrReverse = {numArr[1], numArr[0], numArr[3], numArr[2]};
+        String tmp = "";
+        for (int i = 0; i < numArrReverse.length; i++) {
+            tmp += numArrReverse[i];
         }
-        System.out.println();
 
-        int num = Integer.parseInt(str);
-
+        int num1 = Integer.parseInt(str);
+        int num2 = Integer.parseInt(tmp);
+        System.out.println(num1 + num2);
 
     }
 }
