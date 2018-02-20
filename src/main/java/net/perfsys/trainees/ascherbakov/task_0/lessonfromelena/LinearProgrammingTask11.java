@@ -9,9 +9,10 @@ import java.util.Scanner;
 public class LinearProgrammingTask11 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Введите трехзначное число:");
+        System.out.println("Введите четырехзначное число:");
         String str = scn.nextLine();
         int[] numArr = Arrays.stream(str.split("")).mapToInt(Integer::parseInt).toArray();
-        System.out.println(numArr);
+        int a = numArr[0]+numArr[1]+numArr[2]+numArr[3];
+        System.out.println(a);
     }
 }
