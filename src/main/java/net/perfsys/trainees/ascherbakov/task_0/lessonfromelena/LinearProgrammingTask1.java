@@ -7,7 +7,7 @@ public class LinearProgrammingTask1 {
         int x, y, n, k;
         n = 26; // головы
         k = 78; // ноги
-        x = y = 0;
+       // x = y = 0;
         y = (4 * n - k) / 2;
         x = n - y;
         System.out.println(x + " коров " + y + " куриц ");
