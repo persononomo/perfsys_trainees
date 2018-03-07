@@ -1,7 +1,7 @@
 //Реверс строки лямбдой
 //Факториал лямбдой
 
-package net.perfsys.trainees.ascherbakov.task_0
+package net.perfsys.trainees.ascherbakov.task_0;
 
 
 interface SomeFunc<T> {
