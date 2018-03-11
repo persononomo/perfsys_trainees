@@ -5,22 +5,34 @@
 
 package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 
-import java.util.Arrays;
+
 import java.util.Random;
+
 
 public class ArraysTask1 {
     public static void main(String[] args) {
         int n = 10;
         int[] array = new int[n];
 
-
         for (int i = 0; i < array.length; i++) {
             array[i] = (new Random()).ints(1, 20).iterator().nextInt();
-
-            System.out.print(array[i] + "\t");
         }
-        System.out.println();
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < n / 2; j++) {
+                System.out.print(array[j] + "\t");
+            }
+
+
+        }
 
     }
 
 }
+
+
+
+
+
+
+
+
