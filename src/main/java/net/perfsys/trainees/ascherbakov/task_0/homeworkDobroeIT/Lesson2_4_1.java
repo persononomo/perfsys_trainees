@@ -4,15 +4,15 @@ package net.perfsys.trainees.ascherbakov.task_0.homeworkDobroeIT;
 
 public class Lesson2_4_1 {
     public static void main(String[] args) {
-        System.out.println(calcFactorial(25));
+        System.out.println(factorial(25));
     }
-    static long calcFactorial(int a){
+   public static long factorial(int n)
 
-        long result;
-        if (a == 1)
+    {
+        if (n <= 1)
             return 1;
-        result = calcFactorial(a - 1) * a;
-        return result;
+        else
+            return n * factorial(n - 1);
     }
 }
 
