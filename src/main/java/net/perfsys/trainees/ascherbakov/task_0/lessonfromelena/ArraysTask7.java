@@ -9,19 +9,23 @@ import java.util.Random;
 
 public class ArraysTask7 {
     public static void main(String[] args) {
+        int min = 0;
         int n = 10;
         int[] array = new int[n];
 
         for (int i = 0; i < array.length; i++) {
             array[i] = (new Random()).ints(10, 1000).iterator().nextInt();
+            if(array[i] < min)
+                min = array[i];
         }
+
         for (int num : array) {
             System.out.print(num + "\t");
-
-        }
-
-
     }
+
+
+
+}
 
     public static int sumOfNums(int a) {
         String str = String.valueOf(a);
