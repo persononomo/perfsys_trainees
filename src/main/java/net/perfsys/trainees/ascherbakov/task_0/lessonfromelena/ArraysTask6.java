@@ -4,7 +4,7 @@
 //–	номера учеников с максимальной оценкой (номера вывести на форму в элемент управления ListBox),
 //–	две (три) самые низкие оценки (по значению).
 
-package net.perfsys.trainees.ascherbakov.task_0;
+package net.perfsys.trainees.ascherbakov.task_0.lessonfromelena;
 
 import java.util.Arrays;
 import java.util.OptionalInt;
