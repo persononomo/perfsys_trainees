@@ -12,20 +12,22 @@ public class ArraysTask7 {
         int min = 0;
         int n = 10;
         int[] array = new int[n];
+        int[] arrayOfSum = new int [n];
 
         for (int i = 0; i < array.length; i++) {
             array[i] = (new Random()).ints(10, 1000).iterator().nextInt();
-            if(array[i] < min)
-                min = array[i];
+            System.out.print(array[i] + "\t");
+        }
+        System.out.println();
+        for (int i = 0; i < arrayOfSum.length; i++) {
+            array[i] = sumOfNums(array[i]);
         }
 
         for (int num : array) {
             System.out.print(num + "\t");
+        }
+
     }
-
-
-
-}
 
     public static int sumOfNums(int a) {
         String str = String.valueOf(a);
