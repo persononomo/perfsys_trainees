@@ -28,10 +28,13 @@ public class Main extends Animal {
         animals[3] = bonya;
         animals[4] = ihtiandr;
 
+
+
         for (int i = 0; i < animals.length; i++) {
             System.out.println(animals[i].toString());
         }
 
-        }
     }
+
+}
 
