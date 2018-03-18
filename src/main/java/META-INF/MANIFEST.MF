@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: net.perfsys.trainees.ascherbakov.task_0.homeworkDobroeIT.A
+ nimal
+
