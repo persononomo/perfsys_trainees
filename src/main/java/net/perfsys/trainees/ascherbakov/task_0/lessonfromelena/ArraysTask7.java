@@ -26,7 +26,7 @@ public class ArraysTask7 {
         for (int num : array) {
             System.out.print(num + "\t");
         }
-
+        
     }
 
     public static int sumOfNums(int a) {
