@@ -19,21 +19,75 @@ public class Main extends Animal {
         murka.voice();
         wilson.voice();
 
-        System.out.println("Количество созданных животных: " + sumAnimals);
 
-        Object animals[] = new Object[5];
+        Animal animals[] = new Animal[5];
         animals[0] = murka;
         animals[1] = wilson;
         animals[2] = yasha;
         animals[3] = bonya;
         animals[4] = ihtiandr;
 
-
+        System.out.println("Количество созданных животных: " + sumAnimals);
 
         for (int i = 0; i < animals.length; i++) {
             System.out.println(animals[i].toString());
         }
 
+        System.out.println("Удаляем животных: ");
+
+        for (int i = animals.length - 1; i >= 0; i--) {
+            if (isCatsRequirements(animals[i])) {
+
+                System.arraycopy(animals, i + 1, animals, i, animals.length - 1 - i);
+                i--;
+
+                Animal animalsTmp[] = animals;
+                animals = new Animal[animalsTmp.length - 1];
+                System.arraycopy(animalsTmp, 0, animals, 0, animalsTmp.length - 1);
+            }
+        }
+
+        for (int i = animals.length - 1; i >= 0; i--) {
+            if (isDogRequirements(animals[i])) {
+
+                System.arraycopy(animals, i + 1, animals, i, animals.length - 1 - i);
+                i--;
+
+                Animal animalsTmp[] = animals;
+                animals = new Animal[animalsTmp.length - 1];
+                System.arraycopy(animalsTmp, 0, animals, 0, animalsTmp.length - 1);
+            }
+        }
+
+        for (int i = 0; i < animals.length; i++) {
+            System.out.println(animals[i].toString());
+        }
+
+    }
+
+    private static boolean isDogRequirements(Animal animal) {
+        String name = animal.name;
+        char[] chars = name.toCharArray();
+        int count = 0;
+        for (int i = 0; i < chars.length; i++) {
+            if (isConsonant(chars[i])) count++;
+        }
+        return isAnimal(animal, "Dog") && (count > 4);
+    }
+
+    private static boolean isConsonant(char aChar) {
+        return !(aChar == 'a' || aChar == 'e' || aChar == 'y' || aChar == 'u' || aChar == 'i'|| aChar == 'o');
+    }
+
+    private static boolean isCatsRequirements(Animal animal) {
+        return isAnimal(animal, "Cat") && (animal.age < 1 || animal.age > 8);
+    }
+
+
+    private static boolean isAnimal(Animal animal, String name) {
+        String[] split = animal.getClass().getName().split("Animals.");
+
+        return split[split.length - 1].equals(name);
     }
 
 }
