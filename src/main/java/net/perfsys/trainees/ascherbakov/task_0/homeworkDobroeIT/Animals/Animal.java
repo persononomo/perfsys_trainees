@@ -5,6 +5,21 @@ public class Animal {
     String name;
     static int sumAnimals = 0;
 
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+        sumAnimals++;
+    }
+    public Animal(String name) {
+        this.name = name;
+        sumAnimals++;
+    }
+
+    public Animal() {
+        sumAnimals++;
+
+    }
     void voice() {
     }
 
