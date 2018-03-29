@@ -29,5 +29,8 @@ public class Dog extends Animal {
         System.out.println("Wof");
     }
 
+    void dyingVoice() {
+        System.out.println("Fuck");
 
+    }
 }

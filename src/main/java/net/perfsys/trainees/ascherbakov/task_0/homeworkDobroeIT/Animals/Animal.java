@@ -16,12 +16,14 @@ public class Animal {
         sumAnimals++;
     }
 
+
     public Animal() {
         sumAnimals++;
 
     }
     void voice() {
     }
+    void dyingVoice(){}
 
 }
 
